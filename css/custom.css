@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'baron';
+    src: url('../fonts/baron_neue_bold-webfont.woff2') format('woff2'), url('../fonts/baron_neue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    padding-top: 52px;
+    background-color: #2C3D51;
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.fill-height {
+    height: 100%;
+}
+.jumbotron .comunidades .logos {
+  margin: 40px 0 40px 0;
+  display:flex;
+  flex-direction: row;
+}
+.jumbotron .comunidades {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.jumbotron .t-btn {
+}
+.jumbotron .text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.jumbotron {
+    font-family: 'baron';
+    background-color: #E74C3C;
+    text-align: center;
+    /*height: 100%;*/
+}
+.separator {
+  background-color:#552166;
+  height:22%;
+}
+.h1 {
+    color: white;
+    font-size: 70px;
+}
+.h2 {
+    color: white;
+    font-size: 45px;
+}
+.h3 {
+    color: white;
+    font-size: 43px;
+}
+.h4 {
+    color: white;
+    font-size: 28px;
+}
+.s1 {
+  background-image: url("../img/bg3.png");
+
+}
+
+.section {
+    padding: 50px 0 50px 0;
+    /*border: 5px solid red;*/
+}
+
+
+
+
+
+
+
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(235, 111, 111, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(248, 248, 248, 0.1);
+    border-width: 0;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(44, 61, 81, 0.28);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(175, 190, 224, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(38, 38, 38, 1);
+    background-color: rgba(242, 189, 189, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #f2bdbd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #f2bdbd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f2bdbd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #f8f8f8;
+}
