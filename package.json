@@ -1,0 +1,30 @@
+{
+  "name": "diacoms",
+  "version": "1.0.0",
+  "description": "This is a proposition for Dia de las comunidades mty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codersmty/diacoms2016.git"
+  },
+  "keywords": [
+    "comunidades",
+    "dia",
+    "monterrey",
+    "dev",
+    "tecnologias"
+  ],
+  "author": "Carlos Palmero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codersmty/diacoms2016/issues"
+  },
+  "homepage": "https://github.com/codersmty/diacoms2016#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}
