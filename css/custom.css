@@ -9,11 +9,14 @@ body {
     background-color: #2C3D51;
     overflow-x:hidden;
 }
-.navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
 }
 .fill-height {
-    height: 100%;
+    min-height: 100%;
 }
 .jumbotron .comunidades .logos .logo-item {
     padding: 0 16px 0 16px;
@@ -29,7 +32,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.jumbotron .t-btn {}
+.jumbotron .t-btn {
+  margin-top: 30px;
+}
 .jumbotron .text {
     width: 100%;
     display: flex;
@@ -76,7 +81,7 @@ body {
     background-image: url("../img/bg3.png");
 }
 .section {
-    padding: 50px 0 50px 0;
+    /*padding: 50px 0 50px 0;*/
     /*border: 5px solid red;*/
 }
 
