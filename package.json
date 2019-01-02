@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/codersmty/diacoms2016#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": ">=4.1.2",
     "jquery": "^3.1.0"
   }
 }
